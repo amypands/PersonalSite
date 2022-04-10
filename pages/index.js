@@ -47,6 +47,51 @@ export default function Home() {
         "https://img-c.udemycdn.com/course/240x135/705264_caa9_11.jpg",
     },
   ];
+
+  const projects = [
+    {
+      Name: "Fullstack Emaily",
+      Description:
+        "Web application that profiles the advanced features of React, Redux, Express, and Mongo. This app be used to send mass emails to a big list of users for the purpose of collecting feedback.",
+      Highlights: "Node.js Express React Redux MongoDB",
+      Link: "https://github.com/amypands/widgets",
+    },
+    {
+      Name: "Fullstack Emaily",
+      Description:
+        "Web application that profiles the advanced features of React, Redux, Express, and Mongo. This app be used to send mass emails to a big list of users for the purpose of collecting feedback.",
+      Highlights: "Node.js Express React Redux MongoDB",
+      Link: "https://github.com/amypands/widgets",
+    },
+    {
+      Name: "Fullstack Emaily",
+      Description:
+        "Web application that profiles the advanced features of React, Redux, Express, and Mongo. This app be used to send mass emails to a big list of users for the purpose of collecting feedback.",
+      Highlights: "Node.js Express React Redux MongoDB",
+      Link: "https://github.com/amypands/widgets",
+    },
+    {
+      Name: "Fullstack Emaily",
+      Description:
+        "Web application that profiles the advanced features of React, Redux, Express, and Mongo. This app be used to send mass emails to a big list of users for the purpose of collecting feedback.",
+      Highlights: "Node.js Express React Redux MongoDB",
+      Link: "https://github.com/amypands/widgets",
+    },
+    {
+      Name: "Fullstack Emaily",
+      Description:
+        "Web application that profiles the advanced features of React, Redux, Express, and Mongo. This app be used to send mass emails to a big list of users for the purpose of collecting feedback.",
+      Highlights: "Node.js Express React Redux MongoDB",
+      Link: "https://github.com/amypands/widgets",
+    },
+    {
+      Name: "Fullstack Emaily",
+      Description:
+        "Web application that profiles the advanced features of React, Redux, Express, and Mongo. This app be used to send mass emails to a big list of users for the purpose of collecting feedback.",
+      Highlights: "Node.js Express React Redux MongoDB",
+      Link: "https://github.com/amypands/widgets",
+    },
+  ];
   return (
     <>
       <Nav></Nav>
@@ -64,7 +109,7 @@ export default function Home() {
                 build web <br /> applications through carefully crafted code and
                 human design.
               </p>
-              <a className='contact-button' href="mailto:amykpandya@gmail.com">
+              <a className="contact-button" href="mailto:amykpandya@gmail.com">
                 <i className="bi bi-mailbox"></i> Get In Touch
               </a>
             </div>
@@ -192,6 +237,46 @@ export default function Home() {
               );
             })}
           </div>
+        </div>
+      </div>
+      <div className="section-4">
+        <div className="container">
+          <h2>
+            <Line />
+            Projects
+          </h2>
+          <br />
+          <div className="row">
+            {projects.map((project) => {
+              return (
+                <div className="col-md-4 col-sm-12">
+                  <div className="card">
+                    <div className="card-body">
+                      <div className="card-header">
+                        <h3>{project.Name}</h3>
+                        <a
+                          href={project.Link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="bi bi-link"></i>
+                        </a>
+                      </div>
+                      <p className="card-text">{project.Description}</p>
+                    </div>
+                    <div className="card-footer">{project.Highlights}</div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+      <div className="section-5">
+        <p>Created by Amy Pandya 2022</p>
+        <div>
+          <a href="https://github.com/amypands/PersonalSite"><i className="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/amy-pandya-03282211b/"><i className="bi bi-linkedin"></i></a>
         </div>
       </div>
     </>
