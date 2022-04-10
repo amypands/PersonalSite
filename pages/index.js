@@ -64,6 +64,9 @@ export default function Home() {
                 build web <br /> applications through carefully crafted code and
                 human design.
               </p>
+              <a className='contact-button' href="mailto:amykpandya@gmail.com">
+                <i className="bi bi-mailbox"></i> Get In Touch
+              </a>
             </div>
             <div className="col-md-6  col-sm-12">
               <div className="selfportrait">
