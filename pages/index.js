@@ -68,53 +68,45 @@ export default function Home() {
               <div className="row">
                 <div className="col-md-6 col-sm-12">
                   <h3>Languages</h3>
-                  <p>
-                    <ul>
-                      <li> CSS </li>
-                      <li> SASS </li>
-                      <li> JavaScript(ES6+) </li>
-                      <li> HMTL5 </li>
-                    </ul>
-                  </p>
+                  <ul>
+                    <li> CSS </li>
+                    <li> SASS </li>
+                    <li> JavaScript(ES6+) </li>
+                    <li> HMTL5 </li>
+                  </ul>
                 </div>
                 <div className="col-md-6 col-sm-12">
                   <h3>Libraries and Frameworks</h3>
-                  <p>
-                    <ul>
-                      <li> React </li>
-                      <li> Redux </li>
-                      <li> Bootstrap </li>
-                      <li> Semantinc UI </li>
-                      <li> Node.js</li>
-                      <li> Express </li>
-                      <li> Next.js </li>
-                      <li> Create-React-App </li>
-                    </ul>
-                  </p>
+                  <ul>
+                    <li> React </li>
+                    <li> Redux </li>
+                    <li> Bootstrap </li>
+                    <li> Semantinc UI </li>
+                    <li> Node.js</li>
+                    <li> Express </li>
+                    <li> Next.js </li>
+                    <li> Create-React-App </li>
+                  </ul>
                 </div>
                 <div className="col-md-6 col-sm-12">
                   <h3>Tools</h3>
-                  <p>
-                    <ul>
-                      <li> Git </li>
-                      <li> Vercel </li>
-                      <li> MongoDB </li>
-                      <li> Mongoose </li>
-                      <li> Passport</li>
-                      <li> Visual Studio Code </li>
-                      <li> Atom </li>
-                    </ul>
-                  </p>
+                  <ul>
+                    <li> Git </li>
+                    <li> Vercel </li>
+                    <li> MongoDB </li>
+                    <li> Mongoose </li>
+                    <li> Passport</li>
+                    <li> Visual Studio Code </li>
+                    <li> Atom </li>
+                  </ul>
                 </div>
                 <div className="col-md-6 col-sm-12">
                   <h3>Other</h3>
-                  <p>
-                    <ul>
-                      <li> Marketing </li>
-                      <li> Stakeholder Management </li>
-                      <li> Public Speaking </li>
-                    </ul>
-                  </p>
+                  <ul>
+                    <li> Marketing </li>
+                    <li> Stakeholder Management </li>
+                    <li> Public Speaking </li>
+                  </ul>
                 </div>
               </div>
             </div>
