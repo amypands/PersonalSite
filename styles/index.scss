@@ -106,9 +106,37 @@ nav.navbar {
 .section-2 {
     border-bottom: 2px solid $light-green;
   .container {
-    height: 50vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 }
+
+.section-3 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  a {
+    color: $gold;
+    &:hover {
+      color: white;
+    }
+
+  }
+  img {
+    width:150px;
+    height:150px;
+    border-radius: 1000px;
+    border: 10px solid $base-green;
+    outline: 3px solid $light-green;
+  }
+  .cert{
+    margin-bottom: 2rem;
+    .bi-arrow-right-circle {
+      margin-right: 1rem;
+
+    }
+  }
+}
+
