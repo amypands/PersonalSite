@@ -249,7 +249,7 @@ export default function Home() {
           <div className="row">
             {projects.map((project) => {
               return (
-                <div className="col-md-4 col-sm-12">
+                <div className="col-md-4 col-sm-12" key={project.Name}>
                   <div className="card">
                     <div className="card-body">
                       <div className="card-header">
