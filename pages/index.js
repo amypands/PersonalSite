@@ -15,33 +15,33 @@ export default function Home() {
         "https://img-c.udemycdn.com/course/240x135/705264_caa9_11.jpg",
     },
     {
-      certName: "Modern React with Redux",
+      certName: "Node with React Fullstack Web Development",
       description:
-        "Became fluent in the toolchain supporting React, including NPM, Webpack, Babel, and ES6/ES2015 Javascript syntax.",
+        "Combined the ultra-popular React, Redux, Express, and MongoDB technologies to build a fullstack web application.",
       link: "https://ude.my/UC-4886258e-54c6-4b4a-afe9-ee4e1d4b6a23",
       screenshot:
         "https://img-c.udemycdn.com/course/240x135/705264_caa9_11.jpg",
     },
     {
-      certName: "Modern React with Redux",
+      certName: "Node.js: The Complete Guide to Build RESTful APIs (2018)",
       description:
-        "Became fluent in the toolchain supporting React, including NPM, Webpack, Babel, and ES6/ES2015 Javascript syntax.",
-      link: "https://ude.my/UC-4886258e-54c6-4b4a-afe9-ee4e1d4b6a23",
+        "Learned to build fast, scalable and secure RESTful services with Node, Express and MongoDB, from setup to production.",
+      link: "https://www.udemy.com/certificate/UC-8b541b1b-6a1a-4e13-beca-e9d1c4ed74e2/",
       screenshot:
-        "https://img-c.udemycdn.com/course/240x135/705264_caa9_11.jpg",
+        "https://img-c.udemycdn.com/course/480x270/1638522_fbdf.jpg",
     },
     {
-      certName: "Modern React with Redux",
+      certName: "Javascript Basics for Beginners",
       description:
-        "Became fluent in the toolchain supporting React, including NPM, Webpack, Babel, and ES6/ES2015 Javascript syntax.",
-      link: "https://ude.my/UC-4886258e-54c6-4b4a-afe9-ee4e1d4b6a23",
+        "Used JavaScript to build web and mobile apps, real-time networking apps, command-line tools, and games.",
+      link: "https://www.udemy.com/certificate/UC-68fe9f5d-6017-4e06-b1ac-dd1ac58179e9/",
       screenshot:
-        "https://img-c.udemycdn.com/course/240x135/705264_caa9_11.jpg",
+        "https://img-c.udemycdn.com/course/480x270/1743420_0062.jpg",
     },
     {
-      certName: "Modern React with Redux",
+      certName: "The Complete 2022 Web Development Bootcamp",
       description:
-        "Became fluent in the toolchain supporting React, including NPM, Webpack, Babel, and ES6/ES2015 Javascript syntax.",
+        "HTML5, CSS3, Bootstrap4, Javascript ES6, DOM Manipulation,jQuery,Bash Command Line, Git, GitHub and Version Control, Backend Web Development, Node.js, NPM, Express.js, EJS, REST, APIs, Databases, SQL, MongoDB, Mongoose, Authentication, Firebase, React.js, React Hooks, Web DesignDeployment with GitHub Pages, Heroku and MongoDB Atlas",
       link: "https://ude.my/UC-4886258e-54c6-4b4a-afe9-ee4e1d4b6a23",
       screenshot:
         "https://img-c.udemycdn.com/course/240x135/705264_caa9_11.jpg",
@@ -57,39 +57,39 @@ export default function Home() {
       Link: "https://github.com/amypands/widgets",
     },
     {
-      Name: "Fullstack Emaily",
+      Name: "Video Player",
       Description:
-        "Web application that profiles the advanced features of React, Redux, Express, and Mongo. This app be used to send mass emails to a big list of users for the purpose of collecting feedback.",
-      Highlights: "Node.js Express React Redux MongoDB",
+        "Video player using APIs to search and play videos. Developed using React and Redux.",
+      Highlights:  "React Redux APIs",
+      Link: "https://github.com/amypands/react-videos",
+    },
+    {
+      Name: "Picture Search Application",
+      Description:
+        "A simple search application using APIs to access and select photos. Utilizes React and Unsplash API.",
+      Highlights: "React Unsplash API",
+      Link: "https://github.com/amypands/React-pics",
+    },
+    {
+      Name: "Widgets",
+      Description:
+        "This is a compilation of single page applications using ReactJS and Redux with fundamental features including JSX, state, hooks, and props.",
+      Highlights: "React Redux ",
       Link: "https://github.com/amypands/widgets",
     },
     {
-      Name: "Fullstack Emaily",
+      Name: "Season Display",
       Description:
-        "Web application that profiles the advanced features of React, Redux, Express, and Mongo. This app be used to send mass emails to a big list of users for the purpose of collecting feedback.",
-      Highlights: "Node.js Express React Redux MongoDB",
-      Link: "https://github.com/amypands/widgets",
+        "This is an application that identifies the users current climate using geolocation and displays a relevant message. It demonstrates the use of state, props, async operations, and lifecycle methods.",
+      Highlights: "React Redux",
+      Link: "https://github.com/amypands/season-display",
     },
     {
-      Name: "Fullstack Emaily",
+      Name: "Currency Converter",
       Description:
-        "Web application that profiles the advanced features of React, Redux, Express, and Mongo. This app be used to send mass emails to a big list of users for the purpose of collecting feedback.",
-      Highlights: "Node.js Express React Redux MongoDB",
-      Link: "https://github.com/amypands/widgets",
-    },
-    {
-      Name: "Fullstack Emaily",
-      Description:
-        "Web application that profiles the advanced features of React, Redux, Express, and Mongo. This app be used to send mass emails to a big list of users for the purpose of collecting feedback.",
-      Highlights: "Node.js Express React Redux MongoDB",
-      Link: "https://github.com/amypands/widgets",
-    },
-    {
-      Name: "Fullstack Emaily",
-      Description:
-        "Web application that profiles the advanced features of React, Redux, Express, and Mongo. This app be used to send mass emails to a big list of users for the purpose of collecting feedback.",
-      Highlights: "Node.js Express React Redux MongoDB",
-      Link: "https://github.com/amypands/widgets",
+        "Currency converter application demonstrating Javascript ES7 skills featuring the use of async/await.",
+      Highlights: "React Redux",
+      Link: "https://github.com/amypands/Currency-Converter",
     },
   ];
   return (
@@ -126,6 +126,7 @@ export default function Home() {
           <div className="row">
             <div className="col-md-6  col-sm-12"> </div>
             <div className="col-md-6  col-sm-12">
+              
               <h2>
                 <Line />
                 About Me
