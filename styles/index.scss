@@ -223,5 +223,7 @@ nav.navbar {
     height: 200px;
     border-radius: 1000px;
     object-fit: cover;
+    border: 10px solid $base-green;
+    outline: 3px solid $light-green;
   }
 }
