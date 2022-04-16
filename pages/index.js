@@ -141,7 +141,7 @@ export default function Home() {
                 Ryerson <br />
                 University, along with a minor in general marketing. I am highly
                 interested <br />
-                in developing human centric design with a focus on accesibility
+                in developing human centric design with a focus on accessibility
                 and strong <br />
                 brand aesthetics.
               </p>
