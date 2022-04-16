@@ -27,16 +27,14 @@ export default function Home() {
       description:
         "Learned to build fast, scalable and secure RESTful services with Node, Express and MongoDB, from setup to production.",
       link: "https://www.udemy.com/certificate/UC-8b541b1b-6a1a-4e13-beca-e9d1c4ed74e2/",
-      screenshot:
-        "https://img-c.udemycdn.com/course/480x270/1638522_fbdf.jpg",
+      screenshot: "https://img-c.udemycdn.com/course/480x270/1638522_fbdf.jpg",
     },
     {
       certName: "Javascript Basics for Beginners",
       description:
         "Used JavaScript to build web and mobile apps, real-time networking apps, command-line tools, and games.",
       link: "https://www.udemy.com/certificate/UC-68fe9f5d-6017-4e06-b1ac-dd1ac58179e9/",
-      screenshot:
-        "https://img-c.udemycdn.com/course/480x270/1743420_0062.jpg",
+      screenshot: "https://img-c.udemycdn.com/course/480x270/1743420_0062.jpg",
     },
     {
       certName: "The Complete 2022 Web Development Bootcamp",
@@ -60,7 +58,7 @@ export default function Home() {
       Name: "Video Player",
       Description:
         "Video player using APIs to search and play videos. Developed using React and Redux.",
-      Highlights:  "React Redux APIs",
+      Highlights: "React Redux APIs",
       Link: "https://github.com/amypands/react-videos",
     },
     {
@@ -85,11 +83,11 @@ export default function Home() {
       Link: "https://github.com/amypands/season-display",
     },
     {
-      Name: "Currency Converter",
+      Name: "Robbie's World",
       Description:
-        "Currency converter application demonstrating Javascript ES7 skills featuring the use of async/await.",
-      Highlights: "React Redux",
-      Link: "https://github.com/amypands/Currency-Converter",
+        "Gallery site demonstrating photo carousels and Semantic UI widgets",
+      Highlights: "Javascript, React, Next.js, HMTL, CSS, Semantic UI",
+      Link: "https://github.com/amypands/robbie-site",
     },
   ];
   return (
@@ -124,9 +122,12 @@ export default function Home() {
       <div className="section-2">
         <div className="container">
           <div className="row">
-            <div className="col-md-6  col-sm-12"> </div>
             <div className="col-md-6  col-sm-12">
-              
+              <div className='photo2'>
+                <img src="robandamy.JPG"></img>
+              </div>
+            </div>
+            <div className="col-md-6  col-sm-12">
               <h2>
                 <Line />
                 About Me
@@ -276,8 +277,12 @@ export default function Home() {
       <div className="section-5">
         <p>Created by Amy Pandya 2022</p>
         <div>
-          <a href="https://github.com/amypands/PersonalSite"><i className="bi bi-github"></i></a>
-          <a href="https://www.linkedin.com/in/amy-pandya-03282211b/"><i className="bi bi-linkedin"></i></a>
+          <a href="https://github.com/amypands/PersonalSite">
+            <i className="bi bi-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/amy-pandya-03282211b/">
+            <i className="bi bi-linkedin"></i>
+          </a>
         </div>
       </div>
     </>

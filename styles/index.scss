@@ -214,3 +214,14 @@ nav.navbar {
     }
   }
 }
+
+.photo2 {
+  margin: 0 auto;
+  width: fit-content;
+  img{
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    object-fit: cover;
+  }
+}

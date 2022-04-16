@@ -44,7 +44,7 @@ export default () => {
                 className="nav-link"
                 target="_blank"
                 rel="noopener noreferrer"
-                href=""
+                href="/AmyPandyaResume.pdf"
               >
                 Resumé{' '}
                 <i className="bi bi-file-earmark-pdf"></i>
