@@ -33,6 +33,8 @@ nav.navbar {
   .title {
     font-size: 2rem;
   }
+  top: 0;
+  z-index: 999;
 }
 
 .landing {
@@ -80,6 +82,9 @@ nav.navbar {
     position: relative;
     border: 10px solid $base-green;
     outline: 3px solid $light-green;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
     // &:before {
     //   content: " ";
     //   position: absolute;
@@ -218,7 +223,7 @@ nav.navbar {
 .photo2 {
   margin: 0 auto;
   width: fit-content;
-  img{
+  img {
     width: 200px;
     height: 200px;
     border-radius: 1000px;

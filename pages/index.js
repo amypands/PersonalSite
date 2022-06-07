@@ -48,11 +48,11 @@ export default function Home() {
 
   const projects = [
     {
-      Name: "Fullstack Emaily",
+      Name: "Pitch-Bot",
       Description:
-        "Web application that profiles the advanced features of React, Redux, Express, and Mongo. This app be used to send mass emails to a big list of users for the purpose of collecting feedback.",
-      Highlights: "Node.js Express React Redux MongoDB",
-      Link: "https://github.com/amypands/widgets",
+        " Enter some key words or a sentence below about your desired plot and Pitch Bot will create a movie pitch just for you.",
+      Highlights: "HTML CSS Javascript Open AI",
+      Link: "https://github.com/amypands/Shopify-Movie-Site",
     },
     {
       Name: "Video Player",
@@ -137,7 +137,7 @@ export default function Home() {
                 I am looking to work with other teams to build high quality
                 websites.
                 <br />
-                I am completed a Bachelors of Science in Nutrition and Food at
+                I have completed a Bachelors of Science in Nutrition and Food at
                 Ryerson <br />
                 University, along with a minor in general marketing. I am highly
                 interested <br />
