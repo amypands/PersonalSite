@@ -53,6 +53,7 @@ export default function Home() {
         " Enter some key words or a sentence below about your desired plot and Pitch Bot will create a movie pitch just for you.",
       Highlights: "HTML CSS Javascript Open AI",
       Link: "https://github.com/amypands/Shopify-Movie-Site",
+      Site: "shopify-movie-site.vercel.app"
     },
     {
       Name: "Video Player",
@@ -60,6 +61,7 @@ export default function Home() {
         "Video player using APIs to search and play videos. Developed using React and Redux.",
       Highlights: "React Redux APIs",
       Link: "https://github.com/amypands/react-videos",
+      Site: "react-videos-flax.vercel.app"
     },
     {
       Name: "Picture Search Application",
@@ -67,6 +69,7 @@ export default function Home() {
         "A simple search application using APIs to access and select photos. Utilizes React and Unsplash API.",
       Highlights: "React Unsplash API",
       Link: "https://github.com/amypands/React-pics",
+      Site: "react-pics-cyan.vercel.app"
     },
     {
       Name: "Widgets",
@@ -74,6 +77,7 @@ export default function Home() {
         "This is a compilation of single page applications using ReactJS and Redux with fundamental features including JSX, state, hooks, and props.",
       Highlights: "React Redux ",
       Link: "https://github.com/amypands/widgets",
+      Site: "widgets-one-steel.vercel.app"
     },
     {
       Name: "Season Display",
@@ -81,6 +85,7 @@ export default function Home() {
         "This is an application that identifies the users current climate using geolocation and displays a relevant message. It demonstrates the use of state, props, async operations, and lifecycle methods.",
       Highlights: "React Redux",
       Link: "https://github.com/amypands/season-display",
+      Site: "season-display-rouge.vercel.app"
     },
     {
       Name: "Robbie's World",
@@ -88,6 +93,7 @@ export default function Home() {
         "Gallery site demonstrating photo carousels and Semantic UI widgets",
       Highlights: "Javascript, React, Next.js, HMTL, CSS, Semantic UI",
       Link: "https://github.com/amypands/robbie-site",
+      Site: "robbie-site.vercel.app"
     },
   ];
   return (
@@ -255,9 +261,10 @@ export default function Home() {
                   <div className="card">
                     <div className="card-body">
                       <div className="card-header">
-                        <h3>{project.Name}</h3>
+                        <h3>{project.Name}
+                        </h3>
                         <a
-                          href={project.Link}
+                          href={project.Site}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
