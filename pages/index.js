@@ -44,6 +44,23 @@ export default function Home() {
       screenshot:
         "https://img-c.udemycdn.com/course/240x135/705264_caa9_11.jpg",
     },
+    {
+      certName: "Programming with Javascript",
+      description:
+        "Javascript, common operators, conditional statements and loops.",
+      link: "https://www.coursera.org/learn/programming-with-javascript/home/week/1?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta",
+      screenshot:
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/6a/37b602f994459984dc1498e0f6b717/Meta-logo.jpg?auto=format%2Ccompress&dpr=2&w=200&h=200",
+    },
+    {
+      certName: "Introduction to Front-End Development",
+      description:
+        "CSS and HTML",
+      link: "https://www.coursera.org/account/accomplishments/verify/YAVGDV7UAYTG",
+      screenshot:
+        "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/6a/37b602f994459984dc1498e0f6b717/Meta-logo.jpg?auto=format%2Ccompress&dpr=2&w=200&h=200",
+    },
+
   ];
 
   const projects = [
@@ -94,6 +111,14 @@ export default function Home() {
       Highlights: "Javascript, React, Next.js, HMTL, CSS, Semantic UI",
       Link: "https://github.com/amypands/robbie-site",
       Site: "https://robbie-site.vercel.app"
+    },
+    {
+      Name: "Garden Party",
+      Description:
+        "Application pitch for a garden themed social media site",
+      Highlights: "Javascript, React, Next.js, HMTL, CSS, Semantic UI",
+      Link: "https://github.com/amypands/garden-party",
+      Site: "https://garden-party.vercel.app/"
     },
   ];
   return (
