@@ -11,43 +11,10 @@ export default () => {
                 className="nav-link"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/amy-pandya-03282211b/"
-              >
-                LinkedIn{' '}
-                <i className="bi bi-linkedin"></i>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/amypands"
+                href="https://github.com/"
               >
                 GitHub{' '}
                 <i className="bi bi-github"></i>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="mailto:amykpandya@gmail.com"
-              >
-                Email{' '}
-                <i className="bi bi-envelope-open-heart"></i>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="/AmyPandyaResumePDFNov22.pdf"
-              >
-                Resumé{' '}
-                <i className="bi bi-file-earmark-pdf"></i>
               </a>
             </li>
           </ul>
